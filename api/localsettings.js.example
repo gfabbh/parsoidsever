@@ -18,12 +18,12 @@ exports.setup = function(parsoidConfig) {
 	//parsoidConfig.userAgent = "My-User-Agent-String";
 
 	// The URL of your MediaWiki API endpoint.
-	parsoidConfig.setMwApi('localhost', { uri: 'http://localhost/w/api.php' });
+	parsoidConfig.setMwApi('wiki', { uri: 'http://mediawiki-gfabbh.rhcloud.com/api.php' });
 	// To specify a proxy (or proxy headers) specific to this prefix (which
 	// overrides defaultAPIProxyURI) use:
 	/*
-	parsoidConfig.setMwApi('localhost', {
-		uri: 'http://localhost/w/api.php',
+	parsoidConfig.setMwApi('wiki', {
+		uri: 'http://mediawiki-gfabbh.rhcloud.com/api.php',
 		// set `proxy` to `null` to override and force no proxying.
 		proxy: {
 			uri: 'http://my.proxy:1234/',
