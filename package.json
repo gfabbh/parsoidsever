@@ -58,8 +58,8 @@
   "repository": {
     "type": "git",
     "url": "https://gerrit.wikimedia.org/r/p/mediawiki/services/parsoid"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
-},
-"engines": {
-"node": "0.10.x"
 }
